@@ -32,7 +32,7 @@ public class EmployeeServiceImpl implements EmployeeServiceI{
 		simsg.setFrom(SEND_MAIL);
 		simsg.setSubject("about registreation for Drive.");
 		simsg.setText("Hi "+emp.getFullname()+"/n Your registration for upcoming drive is done successfully..");
-		//simsg.setCc("shubham"));
+		simsg.setCc("shubhamgulhane777@gmail.com");
 		sender.send(simsg);
 		return e;
 	}

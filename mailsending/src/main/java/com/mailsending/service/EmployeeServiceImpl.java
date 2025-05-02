@@ -33,6 +33,7 @@ public class EmployeeServiceImpl implements EmployeeServiceI{
 		simsg.setSubject("about registreation for Drive.");
 		simsg.setText("Hi "+emp.getFullname()+"/n Your registration for upcoming drive is done successfully..");
 		simsg.setCc("shubhamgulhane777@gmail.com");
+		simsg.setCc("aartigulhane404@gmail.com");
 		sender.send(simsg);
 		return e;
 	}
